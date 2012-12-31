@@ -1,0 +1,19 @@
+{
+    "name": "webino/webino-zf1-twitter-bootstrap",
+    "description": "Twitter bootstrap module for Webino ZF1.",
+    "type": "webino-module",
+    "keywords": [
+        "zf1", "webino", "twitter", "bootstrap"
+    ],
+    "homepage": "http://twitter.github.com/bootstrap/",
+    "require": {
+        "php": ">=5.3.3",
+        "webino/webino-zf1-composer-installer": "dev-master",
+        "webino/webino-zf1-base": "dev-master"
+    },
+    "extra": {
+        "webino-module": {
+            "common": "webinozf1twitterbootstrap"
+        }
+    }
+}
